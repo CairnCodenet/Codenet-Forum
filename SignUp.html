@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Codenet-Forum Sign-Up</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="topnav">
+        <a href="Main_Landing.html" style="float: left">Home</a>
+       <!--<a href="SignUp.html">Create Account</a>--> 
+        <a href="Login.html">Login</a>
+    </div>
+    <br>
+    <div class="signupform">
+        <form>
+        <h1 style="text-align: center; padding-bottom: 20px">Create an Account</h1>
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Enter your Cairn email" name="email" pattern="[a-z0-9._%+\-]+@cairn.edu" title="Please use a cairn.edu email" required>
+        <label for="username">Username:</label>
+        <input type="text" placeholder="Enter a username" name="username" required>
+        <label for="psw">Password:</label>
+        <input type="password" placeholder="Enter a password" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Password must include one number, one lowercase letter, one uppercase, and at least 8 characters" required>
+        <label for="psw-repeat">Password Confirmation:</label>
+        <input type="password" placeholder="Enter your password again" name="psw-repeat" required>
+        <button>Create</button>
+    </form>
+    </div>
 </body>
 </html>

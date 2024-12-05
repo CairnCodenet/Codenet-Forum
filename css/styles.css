@@ -1,0 +1,80 @@
+
+body {
+    font-family: "Nunito-Sans", sans-serif;
+}
+
+h1 {
+    color:#49ae9f;
+}
+
+.topnav {
+    display: block;
+    
+}
+.topnav a {
+    color: #49ae9f;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    float: right;
+}
+
+.topnav a:hover {
+    color:#90e2d9;
+}
+
+.welcomeheader {
+    box-sizing: border-box;
+    background-color:#edf9f4;
+    height: 500px;
+    text-align: center;
+}
+
+.welcomeheader h1{
+    padding-top:200px;
+    font-size: 70px;
+}
+
+.signupform, .signinform {
+    box-sizing: border-box;
+    border:1px solid #90e2d9;
+    border-radius: 25px;
+    width: 500px;
+    padding: 40px 90px;
+    margin: 100px 500px;
+}
+
+label {
+    color:#267065; 
+}
+
+
+input[type=text], input[type=password], input[type=email]{
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0 22px 0;
+    display: block;
+    border: none;
+    background: #f5f8f7;
+    color:#267065;
+  }
+
+.signupform button, .signinform button{
+    background-color: #49ae9f;
+    color: white;
+    padding: 14px 20px;
+    margin: 30px 120px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 90px;
+    font-size: 15px;
+}
+
+.signupform button:hover, .signinform button:hover{
+    background-color: #90e2d9;
+}
+
+.signinform a{
+    color:#267065;
+}
